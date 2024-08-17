@@ -1,0 +1,217 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web_Works.com</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <header id="navbar">
+      <div class="logo">
+        <img src="Web_Works__2___1_-removebg-preview.png" alt="Web_Works" />
+      </div>
+      <div class="container">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#sec_3">Services</a></li>
+          <li><a href="#work">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+    <section id="home">
+      <div class="section_1">
+        <h2>UI/UX DESIGNER</h2>
+        <h1>Hi, I am <span>Mohammad Ahmad</span></h1>
+        <h2>Webite Developer(UI/UX)</h2>
+      </div>
+      <div class="image">
+        <img src="2.png" alt="" />
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="about-container">
+        <div class="about-image">
+          <img
+            src="WhatsApp_Image_2024-08-16_at_6.10.23_PM-removebg-preview.png"
+            alt="About"
+          />
+        </div>
+        <div class="about-info">
+          <h1>About Me</h1>
+          <p>
+            "I am a dedicated front-end web developer with expertise in building
+            responsive, visually appealing websites. Proficient in HTML, CSS,
+            and JavaScript, I create clean, efficient code that brings designs
+            to life. I’m passionate about delivering seamless user experiences
+            and continuously improving my skills."
+          </p>
+
+          <div class="tabs">
+            <button class="tab-link active" onclick="openTab(event, 'skills')">
+              Skills
+            </button>
+            <button class="tab-link" onclick="openTab(event, 'experience')">
+              Experience
+            </button>
+            <button class="tab-link" onclick="openTab(event, 'education')">
+              Education
+            </button>
+          </div>
+
+          <div id="skills" class="tab-content active">
+            <!-- <h3>Skills</h3> -->
+            <ul>
+              <li>Designing Web/App Interfaces</li>
+              <li>Web App Development</li>
+              <li>Building Android/iOS Apps</li>
+            </ul>
+          </div>
+
+          <div id="experience" class="tab-content">
+            <!-- <h3>Experience</h3> -->
+            <ul>
+              <li>Front-End Developer at XYZ Company</li>
+              <li>UI/UX Designer at ABC Studio</li>
+            </ul>
+          </div>
+
+          <div id="education" class="tab-content">
+            <!-- <h3>Education</h3> -->
+            <ul>
+              <li>Bachelor’s in Computer Science</li>
+              <li>Certification in Web Development</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="sec_3">
+      <div class="service">
+        <h2>My Services</h2>
+      </div>
+      <div class="service_boxes_container">
+        <div class="service_boxes">
+          <h1>Web Design</h1>
+          <p>
+            "Transform your online presence with our expert web design services.
+            We craft visually stunning, user-friendly websites that not only
+            capture your brand’s essence but also engage and retain visitors.
+            From responsive layouts to seamless navigation, our designs are
+            tailored to enhance your digital footprint and drive business
+            success."
+          </p>
+        </div>
+        <div class="service_boxes">
+          <h1>UI/UX Design</h1>
+          <p>
+            "Enhance user satisfaction with our intuitive UI/UX design services.
+            We create seamless, engaging interfaces that prioritize user
+            experience, ensuring that every interaction is smooth, meaningful,
+            and visually appealing. Our designs are tailored to meet user needs
+            while achieving your business goals."
+          </p>
+        </div>
+        <div class="service_boxes">
+          <h1>App Design</h1>
+          <p>
+            "Bring your app ideas to life with our innovative app design
+            services. We specialize in creating user-centric, visually engaging
+            designs that ensure a smooth and enjoyable experience across all
+            devices. From concept to completion, we craft apps that are not only
+            functional but also captivating."
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="work">
+      <h2>Porfolio</h2>
+      <div class="my_work">
+        <div class="portfolio">
+          <img src="apps.jpg" alt="social media Apps" />
+          <div class="portfolio_details">
+            <h2>Social Media Apps</h2>
+            <p>
+              "Explore my app designs that combine visual appeal with intuitive
+              functionality. I focus on creating user-centric experiences that
+              are both engaging and efficient, showcasing my dedication to
+              seamless interaction."
+            </p>
+          </div>
+        </div>
+        <div class="portfolio">
+          <img src="xCSAEp8DjjrT2UQB87AoFN.jpg" alt="Web Design" />
+          <div class="portfolio_details">
+            <h2>Web Designs</h2>
+            <p>
+              "Dive into my web designs where creativity meets functionality. I
+              specialize in crafting responsive, visually engaging websites that
+              offer smooth user experiences while showcasing a strong attention
+              to detail."
+            </p>
+          </div>
+        </div>
+        <div class="portfolio">
+          <img src="image.png" alt="Shopping Apps" />
+          <div class="portfolio_details">
+            <h2>Online Shopping Apps</h2>
+            <p>
+              "Browse through my online shopping app designs that focus on
+              seamless navigation and secure transactions. Each project
+              highlights my commitment to creating user-friendly interfaces that
+              enhance the shopping experience."
+            </p>
+          </div>
+        </div>
+      </div>
+      <button class="btn">Show More</button>
+    </section>
+
+    <section id="contact">
+      <div class="contact-container">
+        <div class="contact-info">
+          <h1>Contact Us</h1>
+          <p><i class="fas fa-envelope"></i> contactus@gmail.com</p>
+          <p><i class="fas fa-phone"></i> 123456789</p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+          <button class="download-cv">Download CV</button>
+        </div>
+        <div class="contact-form">
+          <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+            <textarea
+              name="message"
+              placeholder="Your message"
+              rows="5"
+              required
+            ></textarea>
+            <button type="submit" class="submit-btn">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
